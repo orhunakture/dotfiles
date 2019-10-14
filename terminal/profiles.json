@@ -1,0 +1,38 @@
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "defaultProfile": "{7f9a6b31-0a06-42ec-96ba-d86b0d1119a5}",
+    "profiles":
+    [
+        {
+            "guid": "{7f9a6b31-0a06-42ec-96ba-d86b0d1119a5}",
+            "name": "pwsh",
+            "commandline": "pwsh.exe",
+            "startingDirectory": "%USERPROFILE%",
+            "fontFace": "Fira Code",
+            "fontSize": 16,
+            "useAcrylic": false
+        },
+        {
+            "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+            "hidden": false,
+            "name": "Azure Cloud Shell",
+            "source": "Windows.Terminal.Azure"
+        }
+    ],
+
+    "schemes": [],
+    "keybindings":
+    [
+        { "command": "scrollDownPage", "keys": ["shift+pgdn"] },
+        { "command": "scrollUpPage", "keys": ["shift+pgup"] },
+        { "command": "switchToTab0", "keys": ["ctrl+1"] },
+        { "command": "switchToTab1", "keys": ["ctrl+2"] },
+        { "command": "switchToTab2", "keys": ["ctrl+3"] },
+        { "command": "switchToTab3", "keys": ["ctrl+4"] },
+        { "command": "switchToTab4", "keys": ["ctrl+5"] },
+        { "command": "switchToTab5", "keys": ["ctrl+6"] },
+        { "command": "switchToTab6", "keys": ["ctrl+7"] },
+        { "command": "switchToTab7", "keys": ["ctrl+8"] },
+        { "command": "switchToTab8", "keys": ["ctrl+9"] }
+    ]
+}

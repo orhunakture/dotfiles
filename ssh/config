@@ -1,0 +1,4 @@
+Host github.com
+  User orhunakture
+  IdentitiesOnly yes
+  IdentityFile ~/.ssh/github-20191014-ed25519

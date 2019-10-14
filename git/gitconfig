@@ -1,0 +1,8 @@
+[user]
+	name = orhunakture
+	email = 24290999+orhunakture@users.noreply.github.com
+	signingkey = C9868B874DE436D7
+[gpg]
+	program = C:\\Users\\Orhun\\scoop\\apps\\gpg\\current\\bin\\gpg.exe
+[commit]
+	gpgsign = true
